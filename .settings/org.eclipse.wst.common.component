@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="RunFattieRun(2)">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jersey-core-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-core-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-multipart-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-multipart-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-guice-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-guice-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jettison-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jettison-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-simple-server-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-simple-server-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-spring-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-spring-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr311-api-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jsr311-api-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-atom-abdera-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-atom-abdera-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-json-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-json-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-server-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-server-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="oauth-server-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/oauth-server-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-client-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-client-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-mapper-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="oauth-signature-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/oauth-signature-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="oauth-client-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/oauth-client-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jackson-core-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-servlet-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-servlet-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-apache-client-1.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jersey-apache-client-1.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jackson-jaxrs-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-xc-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun(2)/WebContent/WEB-INF/lib/jackson-xc-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.36-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/lorenzo/workspace/RunFattieRun/WebContent/WEB-INF/lib/mysql-connector-java-5.1.36-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="RunFattieRun2"/>
+        <property name="java-output-path" value="/RunFattieRun(2)/build/classes"/>
+    </wb-module>
+</project-modules>
