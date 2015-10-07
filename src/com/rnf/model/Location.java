@@ -10,6 +10,7 @@ public class Location {
 	public Location(){
 		
 	}
+
 	
 	public Location(int idSession, double latitude, double longitude) {
 		this.sessionId = idSession;

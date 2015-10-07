@@ -21,9 +21,9 @@ public class DatabaseCrud {
 		// Initiate db connection
 		MysqlDataSource dataSource = new MysqlDataSource();
 		dataSource.setUser("root");
-		dataSource.setPassword("lorenzo31");
+		dataSource.setPassword("");
 		dataSource.setServerName("localhost");
-		dataSource.setDatabaseName("RFR");
+		dataSource.setDatabaseName("rfr");
 		try{
 			init(dataSource);
 		} catch(SQLException e){
@@ -116,6 +116,7 @@ public class DatabaseCrud {
 			
 			ArrayList<Session> sessions = new ArrayList<>();
 			ResultSet rs = stmt.executeQuery("SELECT * FROM Session WHERE User_idUser=(SELECT idUser FROM User WHERE email = '"+email+"')");
+
 			
 			while(rs.next()){
 				
@@ -173,10 +174,7 @@ public class DatabaseCrud {
 		
 	}
 	
-	
-	
-	
-	
+
 	private java.sql.Statement openConnection(){
 		java.sql.Connection conn;
 		try {

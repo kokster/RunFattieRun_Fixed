@@ -11,6 +11,7 @@ public class Session {
 		
 	}
 	
+
 	public Session(int sessionID, String time, int userId){
 		this.sessionID= sessionID;
 		this.timestamp = time;

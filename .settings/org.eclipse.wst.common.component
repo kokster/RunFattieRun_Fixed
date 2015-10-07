@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
     <wb-module deploy-name="RunFattieRun(2)">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
@@ -67,5 +68,12 @@
         </dependent-module>
         <property name="context-root" value="RunFattieRun2"/>
         <property name="java-output-path" value="/RunFattieRun(2)/build/classes"/>
+=======
+    <wb-module deploy-name="Testing_Services">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Testing_Services"/>
+        <property name="java-output-path" value="/Testing_Services/build/classes"/>
+>>>>>>> 68ec1e43163dd6cde4c7471b0f842ee809dfbadf
     </wb-module>
 </project-modules>
