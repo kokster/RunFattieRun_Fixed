@@ -21,8 +21,12 @@ public class DatabaseCrud {
 		// Initiate db connection
 		MysqlDataSource dataSource = new MysqlDataSource();
 		dataSource.setUser("root");
-		dataSource.setPassword("");
+		dataSource.setPassword("lorenzo31");
 		dataSource.setServerName("localhost");
+		dataSource.setDatabaseName("RFR");
+
+//		dataSource.setPassword("");
+//		dataSource.setServerName("localhost");
 		dataSource.setDatabaseName("rfr");
 		try{
 			init(dataSource);
